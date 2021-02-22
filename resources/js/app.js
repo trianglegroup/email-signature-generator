@@ -77,7 +77,7 @@ $('select[name="company"]').on('change', function () {
 
 let departments = [
     'Administration',
-    'Information technology',
+    'Information Technology',
     'Human Resources',
 ];
 
