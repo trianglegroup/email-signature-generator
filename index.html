@@ -1,0 +1,115 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link href="resources/css/app.css" rel="stylesheet">
+</head>
+
+<body>
+<div class="email-signature">
+    <table cellpadding="0" cellspacing="0"
+           style="border: none; border-collapse:collapse; font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif; font-size: 12px; color: #606060; max-width: 516px;">
+        <thead>
+        <tr>
+            <td style="border: 0; padding-bottom: 16px;">Kind Regards,</td>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td style="border: 0;">
+                <table cellpadding="0" cellspacing="0"
+                       style="border: none; border-collapse:collapse; font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif; font-size: 12px; color: #606060;">
+                    <tbody>
+                    <tr>
+                        <td style="border: 0;">
+                            <img alt="%company%" height="172" id="logo" src="resources/images/logos/blank.png"
+                                 style="display: block;" width="172">
+                        </td>
+                        <td style="border: 0;">
+                            <table cellpadding="0" cellspacing="0"
+                                   style="border: none; border-collapse:collapse; font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif; font-size: 12px; color: #606060; margin-left: 16px;">
+                                <tbody>
+                                <tr>
+                                    <td class="changeable text capitalize" id="name"
+                                        style="font-size: 20px; font-weight: bold; border: 0">
+                                        %first-name% %last-name%
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="changeable text" id="title"
+                                        style="padding-top: 4px; font-size: 16px; color: #008000; border: 0">%title%
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td id="department" style="padding-top: 2px; font-size: 16px; border: 0">
+                                        %department%
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="padding-top: 8px; border: 0">
+                                        <span style="font-weight: bold;">phone</span>
+                                        <a id="phone" style="text-decoration: none; color: #008000;">%phone%</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="padding-top: 2px; border: 0">
+                                        <span style="font-weight: bold;">Extension</span>
+                                        <span class="changeable text lowercase" id="extension">%extension%</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="padding-top: 2px; border: 0">
+                                        <span style="font-weight: bold;">Fax</span>
+                                        <a id="fax" style="text-decoration: none; color: #008000;">%fax%</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="padding-top: 2px; border: 0">
+                                        <span style="font-weight: bold;">Email</span>
+                                        <a class="changeable text lowercase" href="mailto:"
+                                           id="email"
+                                           style="text-decoration: none; color: #008000;">%email%</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="padding-top: 2px; border: 0">
+                                        <span style="font-weight: bold;">Website</span>
+                                        <a href="https://triangle.com.eg/"
+                                           style="text-decoration: none; color: #008000;"
+                                           target="_blank">www.triangle.com.eg</a>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+        </tbody>
+        <tfoot>
+        <tr>
+            <td style="padding-top: 16px; font-size: 8px; max-width: 516px; color: #808080; border: 0">The content of
+                this email
+                is confidential and intended for the recipient specified in message only. It is strictly forbidden to
+                share any part of this message with any third party, without a written consent of the sender. If you
+                received this message by mistake, please reply to this message and follow with its deletion, so that we
+                can ensure such a mistake does not occur in the future.
+            </td>
+        </tr>
+        </tfoot>
+    </table>
+</div><!-- .email-signature -->
+
+<div class="changeables"></div><!-- .changeables -->
+
+<div class="code">
+    <pre></pre>
+</div><!-- .code -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="resources/js/app.js"></script>
+</body>
+</html>

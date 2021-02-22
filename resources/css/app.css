@@ -1,0 +1,66 @@
+body {
+    background: #F0F0F0;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #D3D3D3;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #A9A9A9;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #808080;
+}
+
+.email-signature,
+.changeables,
+.code {
+    max-width: 516px;
+    background: #fff;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.16), 0 4px 6px rgba(0, 0, 0, 0.20);
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+}
+
+.changeables > * {
+    box-sizing: border-box;
+    display: inline-block;
+    background-color: #F5F5F5;
+    color: #606060;
+    width: 100%;
+    padding: 12px;
+    border: 0;
+    border-radius: 6px;
+}
+
+.changeables > *:focus {
+    outline: none;
+}
+
+.changeables > *:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.code {
+    max-height: 200px;
+    overflow: scroll;
+}
+
+.code::-webkit-scrollbar {
+    display: none;
+}
